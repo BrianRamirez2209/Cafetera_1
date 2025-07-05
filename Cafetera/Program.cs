@@ -32,7 +32,16 @@
             
         }
 
-        
+        static void Main(string[] args)
+        {
+            Cafetera cafetera = new Cafetera();
+            cafetera.prepararCafe();
+            Console.WriteLine(); // Espacio visual
+            
+        }
+
+
+
     }
     internal class Program
     {
